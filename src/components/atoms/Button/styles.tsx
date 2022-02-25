@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import * as M from 'styles/StyleModule';
-import { IStyledButton } from 'types/Button.type';
+import { IStyledButton } from 'components/atoms/Button/type';
 
 export const StyledButton = styled.button<IStyledButton>`
   ${M.dragNone};

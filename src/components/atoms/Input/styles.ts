@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IStyledInput } from 'types/Input.type';
+import { IStyledInput } from 'components/atoms/Input/type';
 
 export const StyledInput = styled.input<IStyledInput>`
   display: flex;

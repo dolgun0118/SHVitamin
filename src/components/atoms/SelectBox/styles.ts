@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IStyledSelectBox } from 'types/SelectBox.type';
+import { IStyledSelectBox } from 'components/atoms/SelectBox/type';
 import * as M from 'styles/StyleModule';
 
 export const StyledSelectBox = styled.select<IStyledSelectBox>`

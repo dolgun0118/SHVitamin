@@ -10,26 +10,16 @@ export interface IStyledInput {
   backgroundColor?: string;
   margin?: string;
   padding?: string;
-  isReadOnly: boolean;
+  isReadOnly?: boolean;
 }
 
-export interface IInput {
+export interface IInput extends IStyledInput {
   value: any;
   type: string;
-  color?: string;
-  width?: string;
-  height?: string;
   name?: string;
-  margin?: string;
-  padding?: string;
-  fontSize?: string;
   placeholder?: string;
-  borderRadius?: string;
-  isReadOnly?: boolean;
   isAutoFocus?: boolean;
-  backgroundColor?: string;
   maxLength?:number;
   handleChange?: (e: any) => void | SetStateAction<any>;
-  customStyle?: CSSProperties;
   handleKeyPress?:(e: any) => void | SetStateAction<any>
 }

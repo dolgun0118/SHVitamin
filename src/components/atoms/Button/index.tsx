@@ -1,5 +1,5 @@
 import { StyledButton } from './styles';
-import { IButton } from 'types/Button.type';
+import { IButton } from 'components/atoms/Button/type';
 import { CSSProperties, memo, useMemo } from 'react';
 
 const Button = memo((props:IButton) => {
@@ -7,7 +7,7 @@ const Button = memo((props:IButton) => {
     color,
     width,
     height,
-    content,
+    children,
     fontSize,
     customStyle,
     borderRadius,
@@ -37,7 +37,7 @@ const Button = memo((props:IButton) => {
   
   return (
     <StyledButton style={style} onClick={handleClick}>
-      {content}
+      {children}
     </StyledButton>
   );
 });

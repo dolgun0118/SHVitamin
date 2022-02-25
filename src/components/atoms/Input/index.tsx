@@ -1,5 +1,5 @@
 import { StyledInput } from './styles';
-import { IInput } from 'types/Input.type';
+import { IInput } from 'components/atoms/Input/type';
 import { CSSProperties, memo } from 'react';
 
 const Input = memo((props:IInput) => {

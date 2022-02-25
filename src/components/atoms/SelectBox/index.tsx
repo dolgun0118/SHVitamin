@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import { StyledSelectBox } from './styles';
-import { ISelectBox } from 'types/SelectBox.type';
+import { ISelectBox } from 'components/atoms/SelectBox/type';
 
 const SelectBox = memo(({
   items,
